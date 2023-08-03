@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @RequiredArgsConstructor
 @Controller
-public class subController {
+public class bksonController {
     private final ResumeService resumeService;
 
     @GetMapping("/resume/bkson")
