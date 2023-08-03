@@ -29,22 +29,4 @@ public class ResumeController {
         return "resume_detail";
     }
 
-    @GetMapping("/resume/sub")
-    public ResponseEntity<Resume> createSub() {
-        String name="황수빈";
-        String github="github.com/soobeen-byul";
-        String aboutme="안녕하세요. 황수빈입니다.";
-
-        Resume subResume = new Resume(name,github,aboutme);
-
-        resumeService.create(name,github,aboutme);
-
-        return ResponseEntity.ok()
-                .body(subResume);
-    }
-    
-
-
-
-
 }
