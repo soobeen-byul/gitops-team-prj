@@ -1,0 +1,1 @@
+-- INSERT INTO question (subject, content, create_date) VALUES ('제목 1', '내용 1',NOW())
