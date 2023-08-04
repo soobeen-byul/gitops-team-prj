@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class lmsController {
     private final ResumeService resumeService;
 
-    @GetMapping("/resume/sub")
+    @GetMapping("/resume/lms")
     public ResponseEntity<Resume> createLms() {
         String name="이미선";
         String github="github.com/Lee-Miseon";
