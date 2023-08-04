@@ -16,7 +16,7 @@ public class bksonController {
         String github="github.com/bksooon";
         String aboutme="안녕하세요. 손병규입니다.";
 
-        Resume subResume = new Resume(name,github,aboutme);
+        Resume bksonResume = new Resume(name,github,aboutme);
 
         resumeService.create(name,github,aboutme);
         
