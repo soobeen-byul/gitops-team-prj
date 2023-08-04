@@ -5,5 +5,5 @@ ARG STG
 
 COPY "build/libs/demo-0.0.1-SNAPSHOT.jar" app.jar
 
-#ENTRYPOINT ["java","-Dspring.profiles.active=dev", "-jar","/app.jar"]
-ENTRYPOINT ["java","-Dspring.profiles.active=${STG}", "-jar","/app.jar"]
+ENTRYPOINT ["java","-Dspring.profiles.active=prd", "-jar","/app.jar"]
+#ENTRYPOINT ["java","-Dspring.profiles.active=${STG}", "-jar","/app.jar"]
